@@ -1,0 +1,49 @@
+.menu{
+position: relative;
+top: 120px; 
+width: 75%;
+height: 40px;
+background: #800000;
+margin: 0px auto;
+display: flex;
+justify-content: center;
+}
+
+.nav-enlace{
+	background: #FFF;
+	color: #000000;
+	padding: 10px 30px;
+	display: inline-block;
+	text-decoration:none; 
+}
+
+.nav-enlace:hover{
+	background: #00FFFF;
+}
+
+.button{
+	background: #A15121;
+	color: #FFF;
+	padding: 10px 0;
+	border: 2px solid #1234;
+	display: none;
+}
+
+@media Screen and (max-width: 768px){
+	.menu{
+		flex-direction: column;
+	}
+
+	.nav-enlace{
+		margin: 1px 0;
+	}
+
+	.button{
+		display: inline-block;
+	}
+
+	.desaparece{
+		display: none;
+	}
+
+}
